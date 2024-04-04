@@ -1,0 +1,36 @@
+A 行后插入 I行前插入
+Edit：
+ctr + h 删字符 ctr + w删单词  ctr + u删行
+ctr+[ eidt=>normal
+gi normal=>跳转上次编辑的地方
+
+normal：
+移动：
+b w 单词前后移动
+行中快速移动f F+ 字符  相同字符 下一个;上一个，
+
+复制：
+yw复制一个单词
+
+删除：
+dw删单词 【dt"】删除“内容”d$ d0删到行尾\头 
+4x删个字符  4dd删4行
+v V + x块选删除
+
+修改：
+r字符  修改字符   s删除字符 进入edit  
+cw删除单词进入edit C删行并进入Edit
+
+查询：
+
+多文件：
+:e 文件名 打开文件
+:ls查看打开文件
+:b n查看第n个文件
+
+ctr +w s、v  :sp :vs水平 垂直 分割
+:vs 文件名
+ctr +w w切换窗口
+:tabnew 文件名   gt切换tab
+
+

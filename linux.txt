@@ -1,0 +1,18 @@
+debian:
+sudo init 0 / 6
+apt  update
+apt  upgrade
+
+umount /mnt/d
+df /path 查询文件夹挂载点
+rmdir /path
+ln -s /mnt/d/work/CCode/CXXPrimer ~/cprimer
+
+apt install open-vm-tools
+apt install open-vm-tools-dkms
+
+vmware-hgfsclient
+vmhgfs-fuse .host:/ /home/sun/c01
+
+
+vi /etc/sudoers

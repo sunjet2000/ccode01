@@ -1,0 +1,14 @@
+打开退出 tmux  exit
+tmux attach -t 0
+查看窗口 tmux ls
+新窗口：ctrl + b   c 
+切换窗口：ctrl+b  0 1 2 p n
+关闭窗口：ctrl+b  7
+分割窗口：ctrl + b %左右   "上下
+显示分割窗口序号：ctrl + b  q
+选择小窗口：ctrl+b q0 q1 q2 或者 上下左右键选择。
+小窗口最大化：ctrl+b  z
+关闭小窗口：ctrl + b   x
+
+暂时退出：ctrl +b d 回归ctrl +b a
+
